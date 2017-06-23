@@ -206,7 +206,7 @@ resources:
               - rm /var/lib/apt/lists/* -vf 
               - apt update
               - apt upgrade -y
-              - apt install -y python-pip build-essential libssl-dev libffi-dev python-dev libgtk2.0 libxss1 libasound2 jq cf-cli powershell code
+              - apt install -y python-pip build-essential libssl-dev libffi-dev python-dev libgtk2.0 libxss1 libasound2 libxml2-utils jq cf-cli powershell code
               - pip install shade==1.11.1 ansible cryptography python-novaclient==8.0.0 python-openstackclient
               - locale-gen en_GB.utf8
               - update-locale
